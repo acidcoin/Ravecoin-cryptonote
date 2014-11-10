@@ -21,3 +21,58 @@
 2014-Nov-09 20:31:56.642463 ERROR /root/Ravecoin/src/cryptonote_core/cryptonote_core.cpp:101 Failed to initialize blockchain storage
 2014-Nov-09 20:31:56.642965 ERROR /root/Ravecoin/src/daemon/daemon.cpp:189 Failed to initialize core
 2014-Nov-09 20:31:56.643631 Mining has been stopped, 0 finished
+2014-Nov-09 21:25:20.565597 ravecoin v1.0.1.1()
+2014-Nov-09 21:25:20.566429 Module folder: ./daemon
+2014-Nov-09 21:25:20.568412 Initializing p2p server...
+2014-Nov-09 21:25:20.781117 Binding on 0.0.0.0:25665
+2014-Nov-09 21:25:20.782049 Net service binded on 0.0.0.0:25665
+2014-Nov-09 21:25:20.782520 Attempting to add IGD port mapping.
+2014-Nov-09 21:25:22.109135 ERROR /root/Ravecoin/src/p2p/net_node.inl:251 UPNP_AddPortMapping failed.
+2014-Nov-09 21:25:22.110575 P2p server initialized OK
+2014-Nov-09 21:25:22.110841 Initializing cryptonote protocol...
+2014-Nov-09 21:25:22.111096 Cryptonote protocol initialized OK
+2014-Nov-09 21:25:22.111478 Initializing core rpc server...
+2014-Nov-09 21:25:22.112064 Binding on 127.0.0.1:25765
+2014-Nov-09 21:25:22.112533 Core rpc server initialized OK on port: 25765
+2014-Nov-09 21:25:22.113932 Initializing core...
+2014-Nov-09 21:25:22.114226 Loading blockchain...
+2014-Nov-09 21:25:22.114748 Can't load blockchain storage from file.
+2014-Nov-09 21:25:22.114778 Blockchain not loaded, generating genesis block.
+2014-Nov-09 21:25:22.219733 Blockchain initialized. last block: 0, d858.h21.m25.s22 time ago, current difficulty: 1
+2014-Nov-09 21:25:22.220163 Core initialized OK
+2014-Nov-09 21:25:22.220691 Starting core rpc server...
+2014-Nov-09 21:25:22.221126 Run net_service loop( 2 threads)...
+2014-Nov-09 21:25:22.221839 [SRV_MAIN]Core rpc server started ok
+2014-Nov-09 21:25:22.222181 [SRV_MAIN]Starting p2p net loop...
+2014-Nov-09 21:25:22.222585 [SRV_MAIN]Run net_service loop( 10 threads)...
+2014-Nov-09 21:25:23.223062 [P2P9]
+**********************************************************************
+The daemon will start synchronizing with the network. It may take up to several hours.
+
+You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+
+Use "help" command to see the list of available commands.
+
+Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+**********************************************************************
+2014-Nov-09 21:25:23.229267 [P2P8]
+**********************************************************************
+You are now synchronized with the network. You may now start simplewallet.
+
+Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+Otherwise, you will possibly need to synchronize the blockchain again.
+
+Use "help" command to see the list of available commands.
+**********************************************************************
+2014-Nov-09 21:25:39.708377 [node] Stop signal sent
+2014-Nov-09 21:25:39.709936 [SRV_MAIN]net_service loop stopped.
+2014-Nov-09 21:25:39.710451 [SRV_MAIN]p2p net loop stopped
+2014-Nov-09 21:25:39.711121 [SRV_MAIN]Stopping core rpc server...
+2014-Nov-09 21:25:39.712060 [SRV_MAIN]Deinitializing core...
+2014-Nov-09 21:25:39.712694 [SRV_MAIN]Mining has been stopped, 0 finished
+2014-Nov-09 21:25:39.713696 [SRV_MAIN]Saved blockchain cache.
+2014-Nov-09 21:25:39.714462 [SRV_MAIN]Deinitializing rpc server ...
+2014-Nov-09 21:25:39.715090 [SRV_MAIN]Deinitializing cryptonote_protocol...
+2014-Nov-09 21:25:39.715596 [SRV_MAIN]Deinitializing p2p...
+2014-Nov-09 21:25:39.716184 [SRV_MAIN]Node stopped.
+2014-Nov-09 21:25:39.716705 [SRV_MAIN]Mining has been stopped, 0 finished

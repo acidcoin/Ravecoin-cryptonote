@@ -331,9 +331,9 @@ clean: src/CMakeFiles/cryptonote_core.dir/clean
 # Target rules for target src/CMakeFiles/daemon.dir
 
 # All Build rule for target.
-src/CMakeFiles/daemon.dir/all: src/CMakeFiles/common.dir/all
-src/CMakeFiles/daemon.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/daemon.dir/all: CMakeFiles/version.dir/all
+src/CMakeFiles/daemon.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
+src/CMakeFiles/daemon.dir/all: src/CMakeFiles/common.dir/all
 src/CMakeFiles/daemon.dir/all: src/CMakeFiles/crypto.dir/all
 src/CMakeFiles/daemon.dir/all: src/CMakeFiles/cryptonote_core.dir/all
 src/CMakeFiles/daemon.dir/all: src/CMakeFiles/rpc.dir/all
@@ -478,9 +478,9 @@ clean: src/CMakeFiles/simpleminer.dir/clean
 # Target rules for target src/CMakeFiles/simplewallet.dir
 
 # All Build rule for target.
-src/CMakeFiles/simplewallet.dir/all: src/CMakeFiles/common.dir/all
-src/CMakeFiles/simplewallet.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
 src/CMakeFiles/simplewallet.dir/all: CMakeFiles/version.dir/all
+src/CMakeFiles/simplewallet.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
+src/CMakeFiles/simplewallet.dir/all: src/CMakeFiles/common.dir/all
 src/CMakeFiles/simplewallet.dir/all: src/CMakeFiles/crypto.dir/all
 src/CMakeFiles/simplewallet.dir/all: src/CMakeFiles/cryptonote_core.dir/all
 src/CMakeFiles/simplewallet.dir/all: src/CMakeFiles/rpc.dir/all
@@ -596,8 +596,8 @@ tests/preinstall: tests/gtest/preinstall
 # Target rules for target tests/CMakeFiles/core_proxy.dir
 
 # All Build rule for target.
-tests/CMakeFiles/core_proxy.dir/all: src/CMakeFiles/common.dir/all
 tests/CMakeFiles/core_proxy.dir/all: external/miniupnpc/CMakeFiles/upnpc-static.dir/all
+tests/CMakeFiles/core_proxy.dir/all: src/CMakeFiles/common.dir/all
 tests/CMakeFiles/core_proxy.dir/all: src/CMakeFiles/crypto.dir/all
 tests/CMakeFiles/core_proxy.dir/all: src/CMakeFiles/cryptonote_core.dir/all
 	$(MAKE) -f tests/CMakeFiles/core_proxy.dir/build.make tests/CMakeFiles/core_proxy.dir/depend
@@ -885,11 +885,11 @@ clean: tests/CMakeFiles/hash-tests.dir/clean
 # Target rules for target tests/CMakeFiles/net_load_tests_clt.dir
 
 # All Build rule for target.
+tests/CMakeFiles/net_load_tests_clt.dir/all: tests/gtest/CMakeFiles/gtest_main.dir/all
 tests/CMakeFiles/net_load_tests_clt.dir/all: tests/gtest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/net_load_tests_clt.dir/all: src/CMakeFiles/common.dir/all
 tests/CMakeFiles/net_load_tests_clt.dir/all: src/CMakeFiles/crypto.dir/all
 tests/CMakeFiles/net_load_tests_clt.dir/all: src/CMakeFiles/cryptonote_core.dir/all
-tests/CMakeFiles/net_load_tests_clt.dir/all: tests/gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f tests/CMakeFiles/net_load_tests_clt.dir/build.make tests/CMakeFiles/net_load_tests_clt.dir/depend
 	$(MAKE) -f tests/CMakeFiles/net_load_tests_clt.dir/build.make tests/CMakeFiles/net_load_tests_clt.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/Ravecoin/build/release/CMakeFiles  59
@@ -924,11 +924,11 @@ clean: tests/CMakeFiles/net_load_tests_clt.dir/clean
 # Target rules for target tests/CMakeFiles/net_load_tests_srv.dir
 
 # All Build rule for target.
+tests/CMakeFiles/net_load_tests_srv.dir/all: tests/gtest/CMakeFiles/gtest_main.dir/all
 tests/CMakeFiles/net_load_tests_srv.dir/all: tests/gtest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/net_load_tests_srv.dir/all: src/CMakeFiles/common.dir/all
 tests/CMakeFiles/net_load_tests_srv.dir/all: src/CMakeFiles/crypto.dir/all
 tests/CMakeFiles/net_load_tests_srv.dir/all: src/CMakeFiles/cryptonote_core.dir/all
-tests/CMakeFiles/net_load_tests_srv.dir/all: tests/gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f tests/CMakeFiles/net_load_tests_srv.dir/build.make tests/CMakeFiles/net_load_tests_srv.dir/depend
 	$(MAKE) -f tests/CMakeFiles/net_load_tests_srv.dir/build.make tests/CMakeFiles/net_load_tests_srv.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/Ravecoin/build/release/CMakeFiles  60
@@ -1038,10 +1038,10 @@ clean: tests/CMakeFiles/performance_tests.dir/clean
 # Target rules for target tests/CMakeFiles/tests.dir
 
 # All Build rule for target.
+tests/CMakeFiles/tests.dir/all: tests/CMakeFiles/coretests.dir/all
+tests/CMakeFiles/tests.dir/all: tests/CMakeFiles/performance_tests.dir/all
 tests/CMakeFiles/tests.dir/all: tests/CMakeFiles/node_rpc_proxy_test.dir/all
 tests/CMakeFiles/tests.dir/all: tests/CMakeFiles/core_proxy.dir/all
-tests/CMakeFiles/tests.dir/all: tests/CMakeFiles/performance_tests.dir/all
-tests/CMakeFiles/tests.dir/all: tests/CMakeFiles/coretests.dir/all
 tests/CMakeFiles/tests.dir/all: tests/CMakeFiles/unit_tests.dir/all
 	$(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/depend
 	$(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
@@ -1073,13 +1073,13 @@ clean: tests/CMakeFiles/tests.dir/clean
 # Target rules for target tests/CMakeFiles/unit_tests.dir
 
 # All Build rule for target.
+tests/CMakeFiles/unit_tests.dir/all: tests/CMakeFiles/coretests_lib.dir/all
+tests/CMakeFiles/unit_tests.dir/all: tests/gtest/CMakeFiles/gtest_main.dir/all
 tests/CMakeFiles/unit_tests.dir/all: tests/gtest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/unit_tests.dir/all: src/CMakeFiles/common.dir/all
 tests/CMakeFiles/unit_tests.dir/all: src/CMakeFiles/crypto.dir/all
 tests/CMakeFiles/unit_tests.dir/all: src/CMakeFiles/cryptonote_core.dir/all
 tests/CMakeFiles/unit_tests.dir/all: src/CMakeFiles/wallet.dir/all
-tests/CMakeFiles/unit_tests.dir/all: tests/CMakeFiles/coretests_lib.dir/all
-tests/CMakeFiles/unit_tests.dir/all: tests/gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/depend
 	$(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/Ravecoin/build/release/CMakeFiles  67 68 69 70 71 72 73 74 75 76 77 78 79 80

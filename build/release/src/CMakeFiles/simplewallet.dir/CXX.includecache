@@ -1186,24 +1186,6 @@ wallet_rpc_server_error_codes.h
 
 ../../src/wallet/wallet_rpc_server_error_codes.h
 
-/root/Ravecoin/src/simplewallet/password_container.cpp
-password_container.h
-/root/Ravecoin/src/simplewallet/password_container.h
-iostream
--
-memory.h
--
-stdio.h
--
-io.h
--
-windows.h
--
-termios.h
--
-unistd.h
--
-
 /root/Ravecoin/src/simplewallet/password_container.h
 string
 -

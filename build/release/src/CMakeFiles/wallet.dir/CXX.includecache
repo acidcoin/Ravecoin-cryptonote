@@ -936,10 +936,6 @@ WalletTransactionSender.h
 WalletRequest.h
 /root/Ravecoin/src/wallet/WalletRequest.h
 
-/root/Ravecoin/src/wallet/WalletAsyncContextCounter.cpp
-WalletAsyncContextCounter.h
-/root/Ravecoin/src/wallet/WalletAsyncContextCounter.h
-
 /root/Ravecoin/src/wallet/WalletAsyncContextCounter.h
 condition_variable
 -
@@ -947,10 +943,6 @@ mutex
 -
 stdint.h
 -
-
-/root/Ravecoin/src/wallet/WalletErrors.cpp
-WalletErrors.h
-/root/Ravecoin/src/wallet/WalletErrors.h
 
 /root/Ravecoin/src/wallet/WalletErrors.h
 string
@@ -1094,10 +1086,6 @@ cryptonote_core/cryptonote_format_utils.h
 IWallet.h
 /root/Ravecoin/src/wallet/IWallet.h
 
-/root/Ravecoin/src/wallet/WalletTxSendingState.cpp
-WalletTxSendingState.h
-/root/Ravecoin/src/wallet/WalletTxSendingState.h
-
 /root/Ravecoin/src/wallet/WalletTxSendingState.h
 IWallet.h
 /root/Ravecoin/src/wallet/IWallet.h
@@ -1123,12 +1111,6 @@ crypto/hash.h
 /root/Ravecoin/src/wallet/crypto/hash.h
 cryptonote_core/cryptonote_basic.h
 /root/Ravecoin/src/wallet/cryptonote_core/cryptonote_basic.h
-
-/root/Ravecoin/src/wallet/WalletUserTransactionsCache.cpp
-WalletUserTransactionsCache.h
-/root/Ravecoin/src/wallet/WalletUserTransactionsCache.h
-algorithm
--
 
 /root/Ravecoin/src/wallet/WalletUserTransactionsCache.h
 crypto/hash.h

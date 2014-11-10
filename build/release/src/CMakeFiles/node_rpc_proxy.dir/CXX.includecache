@@ -680,10 +680,6 @@ atomic
 include_base_utils.h
 /root/Ravecoin/src/node_rpc_proxy/include_base_utils.h
 
-/root/Ravecoin/src/node_rpc_proxy/NodeErrors.cpp
-NodeErrors.h
-/root/Ravecoin/src/node_rpc_proxy/NodeErrors.h
-
 /root/Ravecoin/src/node_rpc_proxy/NodeErrors.h
 string
 -

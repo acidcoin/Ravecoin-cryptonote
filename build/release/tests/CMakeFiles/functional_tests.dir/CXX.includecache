@@ -368,20 +368,6 @@ pragma_comp_defs.h
 boost/preprocessor/stringize.hpp
 -
 
-../../src/common/command_line.h
-iostream
--
-type_traits
--
-boost/program_options/parsers.hpp
--
-boost/program_options/options_description.hpp
--
-boost/program_options/variables_map.hpp
--
-include_base_utils.h
-../../src/common/include_base_utils.h
-
 ../../src/common/int-util.h
 assert.h
 -
@@ -852,16 +838,6 @@ boost/preprocessor/repetition/enum_params.hpp
 boost/preprocessor/repetition/repeat_from_to.hpp
 -
 
-/root/Ravecoin/tests/functional_tests/main.cpp
-boost/program_options.hpp
--
-include_base_utils.h
-/root/Ravecoin/tests/functional_tests/include_base_utils.h
-common/command_line.h
-/root/Ravecoin/tests/functional_tests/common/command_line.h
-transactions_flow_test.h
-/root/Ravecoin/tests/functional_tests/transactions_flow_test.h
-
 /root/Ravecoin/tests/functional_tests/transactions_flow_test.cpp
 boost/uuid/uuid.hpp
 -
@@ -873,8 +849,6 @@ include_base_utils.h
 /root/Ravecoin/tests/functional_tests/include_base_utils.h
 wallet/wallet2.h
 /root/Ravecoin/tests/functional_tests/wallet/wallet2.h
-
-/root/Ravecoin/tests/functional_tests/transactions_flow_test.h
 
 /root/Ravecoin/tests/functional_tests/transactions_generation_from_blockchain.cpp
 include_base_utils.h
