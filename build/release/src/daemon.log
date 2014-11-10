@@ -1,0 +1,23 @@
+2014-Nov-09 20:31:55.049486 ravecoin v1.0.1.1()
+2014-Nov-09 20:31:55.050287 Module folder: ./daemon
+2014-Nov-09 20:31:55.052206 Initializing p2p server...
+2014-Nov-09 20:31:55.182021 Binding on 0.0.0.0:25665
+2014-Nov-09 20:31:55.182895 Net service binded on 0.0.0.0:25665
+2014-Nov-09 20:31:55.183535 Attempting to add IGD port mapping.
+2014-Nov-09 20:31:56.582923 ERROR /root/Ravecoin/src/p2p/net_node.inl:251 UPNP_AddPortMapping failed.
+2014-Nov-09 20:31:56.583527 P2p server initialized OK
+2014-Nov-09 20:31:56.584339 Initializing cryptonote protocol...
+2014-Nov-09 20:31:56.584927 Cryptonote protocol initialized OK
+2014-Nov-09 20:31:56.585641 Initializing core rpc server...
+2014-Nov-09 20:31:56.586493 Binding on 127.0.0.1:25765
+2014-Nov-09 20:31:56.587247 Core rpc server initialized OK on port: 25765
+2014-Nov-09 20:31:56.588016 Initializing core...
+2014-Nov-09 20:31:56.589141 Loading blockchain...
+2014-Nov-09 20:31:56.589852 Can't load blockchain storage from file.
+2014-Nov-09 20:31:56.590448 Blockchain not loaded, generating genesis block.
+2014-Nov-09 20:31:56.641265 ERROR /root/Ravecoin/src/cryptonote_core/blockchain_storage.cpp:441 coinbase transaction in the block has no inputs
+2014-Nov-09 20:31:56.641730 Block <e01b5a4d6cc6f08a3aa2a24d03e802944b4615f9caf349a3d2abc6b4ef86bafb> failed to pass prevalidation
+2014-Nov-09 20:31:56.642074 ERROR /root/Ravecoin/src/cryptonote_core/blockchain_storage.cpp:190 Failed to add genesis block to blockchain
+2014-Nov-09 20:31:56.642463 ERROR /root/Ravecoin/src/cryptonote_core/cryptonote_core.cpp:101 Failed to initialize blockchain storage
+2014-Nov-09 20:31:56.642965 ERROR /root/Ravecoin/src/daemon/daemon.cpp:189 Failed to initialize core
+2014-Nov-09 20:31:56.643631 Mining has been stopped, 0 finished
